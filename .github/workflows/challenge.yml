@@ -21,4 +21,10 @@ jobs:
     steps:
       - name: Date
         run: date
-  #job4:
+  job4:
+    name: Condition job
+    runs-on: ubuntu-20.0.4
+    needs: [job1, job2, job3]
+    steps:
+      - name: Date
+        run: date
