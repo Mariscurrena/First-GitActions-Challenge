@@ -15,5 +15,10 @@ jobs:
     steps:
       - name: Date
         run: date
-  #job3:
+  job3:
+    name: MacOs job
+    runs-on: macos-latest
+    steps:
+      - name: Date
+        run: date
   #job4:
