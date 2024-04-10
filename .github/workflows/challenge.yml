@@ -9,6 +9,11 @@ jobs:
     steps:
       - name: Date
         run: date
-  #job2:
+  job2:
+    name: Windows job
+    runs-on: windows-latest
+    steps:
+      - name: Date
+        run: date
   #job3:
   #job4:
